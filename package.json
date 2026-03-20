@@ -1,0 +1,11 @@
+{
+  "name": "jake-lin-resume",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server --disableFastRender",
+    "build": "hugo --gc --minify"
+  },
+  "devDependencies": {
+    "hugo-bin": "0.147.0"
+  }
+}

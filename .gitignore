@@ -1,0 +1,14 @@
+node_modules/
+public/
+resources/
+.hugo_build.lock
+
+# Local raw resume material
+*.docx
+/jake-lin.md
+/jake-lin-2022.md
+/jake-lin-2023.md
+/jake-lin-2024.md
+/jake-lin-2025.md
+/jake-lin-2026.md
+/resume_in_2021.md

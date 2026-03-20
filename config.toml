@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "en-au"
+title = "Jake Lin"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+
+[params]
+  description = "Jake Lin is a staff mobile engineer focused on support product impact, system stability, and practical AI adoption."
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
