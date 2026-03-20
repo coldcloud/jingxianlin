@@ -1,0 +1,12 @@
+<svg width="100%" height="100%" viewBox="0 0 64 64" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" aria-hidden="true">
+  <g transform="matrix(1,0,0,1,-154,-1107.490179)">
+    <g transform="matrix(1,0,0,1,-5.999968,-43.687514)">
+      <g transform="matrix(2.666667,0,0,2.666667,159.999968,1151.177693)">
+        <g transform="matrix(0.025,0,0,0.025,0,24)">
+          <path d="M80-120V-720H320V-880H640v160H880v600H80zm80-80H800V-640H160v440zM400-720H560v-80H400v80zM160-200V-640-200z" style="fill:currentColor;fill-rule:nonzero"/>
+        </g>
+        <rect x="0" y="0" width="24" height="24" style="fill:none"/>
+      </g>
+    </g>
+  </g>
+</svg>

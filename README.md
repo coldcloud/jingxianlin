@@ -17,4 +17,4 @@ npm run build
 
 ## Update content
 
-Most of the resume copy lives in `data/resume.toml`.
+Most of the resume copy now lives in `content/_index.md`.

@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ site.Title }} | Resume{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
     <link rel="stylesheet" href="/styles.css">
   </head>
-  <body>
+  <body{{ if .IsHome }} id="hire"{{ end }}>
     {{ block "main" . }}{{ end }}
   </body>
 </html>

@@ -1,103 +1,32 @@
 {{ define "main" }}
-  {{ $resume := site.Data.resume }}
-  <main class="page-shell">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Resume</p>
-        <h1>{{ $resume.name }}</h1>
-        <p class="headline">{{ $resume.headline }}</p>
-        <p class="intro">{{ $resume.intro }}</p>
+  <div id="content-outer-container">
+    <div id="content-inner-container">
+      <nav class="detail-breadcrumb">
+        <a href="{{ "/" | relURL }}">{{ .Params.name }}</a>
+      </nav>
+      <h2 class="list-title">
+        {{ partial "icons/hire_me.svg" }}
+        <span>{{ .Title }}</span>
+      </h2>
+      <div class="hire-prose">
+        {{ .Content }}
       </div>
-      <aside class="hero-card">
-        <div class="meta-block">
-          <span class="meta-label">Based in</span>
-          <strong>{{ $resume.location }}</strong>
-        </div>
-        <div class="meta-block">
-          <span class="meta-label">Contact</span>
-          <a href="mailto:{{ $resume.email }}">{{ $resume.email }}</a>
-        </div>
-        <div class="meta-block">
-          <span class="meta-label">Looking for</span>
-          <p>{{ $resume.availability }}</p>
-        </div>
-      </aside>
-    </section>
 
-    <section class="metrics" aria-label="Selected outcomes">
-      {{ range $resume.metrics }}
-        <article class="metric-card">
-          <p class="metric-value">{{ .value }}</p>
-          <p class="metric-label">{{ .label }}</p>
-        </article>
+      {{ range .Params.experience }}
+        <div class="resume-entry">
+          <img{{ if .invertDark }} class="invert-dark"{{ end }} src="{{ printf "img/%s" .icon | relURL }}" alt="{{ .company }}">
+          <div>
+            <h3>{{ .company }}</h3>
+            <p class="subtitle">{{ .role }}{{ with .brand }} · {{ . }}{{ end }}</p>
+            <span id="date">{{ .dates }}</span>
+            <ul>
+              {{ range .points }}
+                <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
       {{ end }}
-    </section>
-
-    <section class="section-block">
-      <div class="section-heading">
-        <p class="eyebrow">What I Focus On</p>
-        <h2>Three areas I bring to a team</h2>
-        <p>{{ $resume.work_style }}</p>
-      </div>
-      <div class="focus-grid">
-        {{ range $resume.focus_areas }}
-          <article class="focus-card">
-            <h3>{{ .title }}</h3>
-            <p class="focus-summary">{{ .summary }}</p>
-            <ul>
-              {{ range .bullets }}
-                <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </article>
-        {{ end }}
-      </div>
-    </section>
-
-    <section class="section-block">
-      <div class="section-heading">
-        <p class="eyebrow">Experience</p>
-        <h2>Recent roles</h2>
-      </div>
-      <div class="experience-list">
-        {{ range $resume.experience }}
-          <article class="experience-card">
-            <div class="experience-header">
-              <div>
-                <p class="company">{{ .company }}</p>
-                <h3>{{ .role }}</h3>
-                <p class="brand">{{ .brand }}</p>
-              </div>
-              <p class="period">{{ .period }}</p>
-            </div>
-            <p class="experience-summary">{{ .summary }}</p>
-            <ul>
-              {{ range .bullets }}
-                <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </article>
-        {{ end }}
-      </div>
-    </section>
-
-    <section class="section-block advocacy-block">
-      <div class="section-heading">
-        <p class="eyebrow">AI And Collaboration</p>
-        <h2>How I show up beyond shipping features</h2>
-      </div>
-      <div class="advocacy-grid">
-        {{ range $resume.advocacy }}
-          <article class="advocacy-card">
-            <h3>{{ .title }}</h3>
-            <ul>
-              {{ range .items }}
-                <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </article>
-        {{ end }}
-      </div>
-    </section>
-  </main>
+    </div>
+  </div>
 {{ end }}

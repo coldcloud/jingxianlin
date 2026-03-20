@@ -1,0 +1,11 @@
+<svg width="44" height="44" viewBox="0 0 44 44" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Block Logo" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="16" y="0" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="32" y="0" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="0" y="16" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="16" y="16" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="32" y="16" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="0" y="32" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="16" y="32" width="12" height="12" rx="2" fill="currentColor"/>
+  <rect x="32" y="32" width="12" height="12" rx="2" fill="currentColor"/>
+</svg>
