@@ -3,6 +3,10 @@ languageCode = "en-au"
 title = "Jake Lin"
 disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
 
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
 [params]
   description = "Jake Lin is a staff mobile engineer focused on support product impact, system stability, and practical AI adoption."
 

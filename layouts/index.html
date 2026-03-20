@@ -2,7 +2,7 @@
   <div id="content-outer-container">
     <div id="content-inner-container">
       <nav class="detail-breadcrumb">
-        <a href="{{ "/" | relURL }}">{{ .Params.name }}</a>
+        <a href="{{ "" | absURL }}">{{ .Params.name }}</a>
       </nav>
       <h2 class="list-title">
         {{ partial "icons/hire_me.svg" }}
@@ -14,7 +14,7 @@
 
       {{ range .Params.experience }}
         <div class="resume-entry">
-          <img{{ if .invertDark }} class="invert-dark"{{ end }} src="{{ printf "img/%s" .icon | relURL }}" alt="{{ .company }}">
+          <img{{ if .invertDark }} class="invert-dark"{{ end }} src="{{ printf "img/%s" .icon | absURL }}" alt="{{ .company }}">
           <div>
             <h3>{{ .company }}</h3>
             <p class="subtitle">{{ .role }}{{ with .brand }} · {{ . }}{{ end }}</p>

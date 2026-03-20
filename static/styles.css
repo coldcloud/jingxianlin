@@ -24,21 +24,21 @@
 
 @font-face {
     font-family: "HostGrotesk";
-    src: url("/fonts/HostGrotesk-VariableFont_wght.ttf") format("truetype");
+    src: url("fonts/HostGrotesk-VariableFont_wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: "HostGrotesk";
-    src: url("/fonts/HostGrotesk-Italic-VariableFont_wght.ttf") format("truetype");
+    src: url("fonts/HostGrotesk-Italic-VariableFont_wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: "MonoSpec";
-    src: url("/fonts/MonoSpec-Variable.ttf") format("truetype");
+    src: url("fonts/MonoSpec-Variable.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
 }
