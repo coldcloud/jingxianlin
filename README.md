@@ -27,4 +27,4 @@ https://coldcloud.github.io/jingxianlin/
 
 ## Update content
 
-Most of the resume copy now lives in `content/_index.md`.
+The main resume copy now lives in `content/hireme.md`.

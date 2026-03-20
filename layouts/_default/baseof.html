@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+    {{ if .IsHome }}
+      <meta http-equiv="refresh" content="0; url={{ "hireme/" | absURL }}">
+      <link rel="canonical" href="{{ "hireme/" | absURL }}">
+    {{ end }}
     <link rel="stylesheet" href="{{ "styles.css" | absURL }}">
   </head>
-  <body{{ if .IsHome }} id="hire"{{ end }}>
+  <body{{ if or .IsHome .IsPage }} id="hire"{{ end }}>
     {{ block "main" . }}{{ end }}
   </body>
 </html>
