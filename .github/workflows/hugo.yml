@@ -31,7 +31,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.128.0
+      HUGO_VERSION: 0.150.0
+      HUGO_ENVIRONMENT: production
+      HUGO_BASEURL: https://jingxianlin.com/
     steps:
       - name: Install Hugo CLI
         run: |
@@ -51,11 +53,11 @@ jobs:
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
-          HUGO_ENVIRONMENT: production
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --gc \
+            --baseURL "${{ env.HUGO_BASEURL }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
