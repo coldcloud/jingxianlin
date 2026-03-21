@@ -1,7 +1,7 @@
 ---
 title: "Hire Me"
-summary: "About me and what I'm looking for."
-description: "Staff engineer with a track record across product delivery, platform reliability, and practical AI adoption."
+summary: "Staff engineer across mobile, backend, reliability, and practical AI systems."
+description: "Staff engineer with 15+ years of experience leading architecture, platform quality, and product delivery across mobile, backend, observability, and AI-enabled workflows."
 name: "Jake Lin"
 location: "Melbourne, Australia"
 email: "me@jingxianlin.com"
@@ -14,30 +14,32 @@ experience:
     icon: "hire-block.svg"
     invertDark: true
     points:
-      - "Worked across mobile, backend, machine learning engineering, and modeling/data science teams to build agentic experiences for Cash App and Square customers, including , Agentic Chat (Support Chat and Money bot), Support Center Hub, disputes, receipts, and support content. Increased automation from 25% to 75%, saving the business millions of dollars per year."
-      - "Focused on system stability and visibility by introducing a mobile observability framework such as RUM data, SLOs, journey tracking, and customer event instrumentation. This helped teams catch SEV issues earlier, measure rollout impact more clearly, and improve app performance e.g. p90 loading within 2 seconds"
-      - "Led release and production quality through staged rollouts, production checks, dashboards, and measurement loops that helped the team iterate quickly and bring customer value faster."
-      - "Championed practical AI adoption through prototypes, workflow improvements, knowledge-sharing, and building agentic experiences that helped teams move faster without lowering engineering quality."
+      - "Led cross-functional initiatives across mobile, backend, ML engineering, and data science to deliver support and agentic product experiences for Cash App and Square, including chat, disputes, receipts, and support content."
+      - "Increased automation from 25% to 75%, driving multimillion-dollar annual savings while improving customer support scalability."
+      - "Introduced mobile observability foundations including RUM, SLOs, journey tracking, and customer event instrumentation, helping teams detect SEVs earlier and improve p90 load time to within 2 seconds."
+      - "Raised release quality through staged rollouts, production checks, dashboards, and feedback loops that improved delivery confidence and accelerated iteration."
+      - "Championed practical AI adoption through prototypes, workflow improvements, and knowledge sharing without lowering engineering quality."
   - company: "REA Group"
     brand: "Ignite"
     role: "Staff Mobile Developer"
     dates: "2020 - 2022"
     icon: "hire-rea.svg"
     points:
-      - "Built the mobile platform that enabled multiple feature teams to deliver consistently in Ignite, a real estate customer platform for agents."
-      - "Helped turn Ignite into a core workflow for more than 20,000 real estate agents to manage rental listings and review tenant applications, increasing monthnly engagement to 50%."
-      - "Set the technical direction for mobile architecture, reusable components, and engineering quality so teams could ship faster while keeping the platform maintainable and extensible."
-      - "Partnered with Talent team to develop a stronger hiring process and interview rubric that improved how the team assessed and grew mobile engineering talent."
+      - "Built the mobile platform that enabled multiple product teams to ship consistently on Ignite, a core real estate workflow platform."
+      - "Helped scale Ignite into a key workflow for 20,000+ real estate agents managing rental listings and tenant applications, lifting monthly engagement to 50%."
+      - "Set technical direction for mobile architecture, reusable components, and engineering quality, improving team delivery speed while keeping the platform maintainable and extensible."
+      - "Partnered with recruiting and leadership to strengthen hiring and interview rubrics, improving talent assessment and team growth."
   - company: "carsales.com.au"
     brand: "Autogate"
     role: "Senior iOS Developer and API Developer"
     dates: "2018 - 2020"
     icon: "hire-carsales.png"
     iconBackground: "#0b5cab"
+    iconLight: true
     points:
-      - "Delivered end-to-end product work spanning app code, APIs, deployment, and data changes."
-      - "Worked closely with product and design to ship practical workflows for dealers."
-      - "Mentored junior developers and reinforced testing and architecture standards."
+      - "Delivered end-to-end product capabilities across iOS, APIs, deployment, and data changes for dealer-facing workflows."
+      - "Worked closely with product and design to turn operational needs into practical shipped software."
+      - "Mentored engineers and reinforced testing and architecture standards across the team."
   - company: "Earlier Career"
     brand: "Bluechain, ZibMedia, Wave Chat, Beijing Uniwill"
     role: "Mobile and C++ Software Engineer"
@@ -47,11 +49,11 @@ experience:
       - "Grew from hands-on implementation into technical leadership, architecture ownership, and team mentoring."
 ---
 
-I’m a staff engineer who helps teams turn product goals into reliable systems, scalable solutions, and effective delivery.
+I’m a staff engineer with 15+ years of experience helping teams turn product goals into reliable systems, scalable platforms, and measurable business outcomes.
 
-Over the years, I’ve worked across mobile, backend, platform quality, and AI-enabled workflows. I’m most effective when I can help a team move from idea to production, raise the technical bar, and create the conditions for other engineers to do strong work.
+My background spans mobile, backend, platform quality, observability, and AI-enabled workflows. I’m most effective in roles that combine hands-on technical depth with architecture leadership, cross-team influence, and a strong focus on delivery quality.
 
-I care about building products that deliver real customer value, improving the systems behind them so they stay healthy over time, and helping teams adopt new tools, including AI, in practical ways.
+In my latest role, I’ve led work that increased support automation to 75%, saved millions annually, and strengthened mobile observability and release quality for a product with 60 million monthly active users. I care about building systems that create real customer value and helping teams adopt better tools and practices in pragmatic ways.
 
 ## What I’m looking for
 
