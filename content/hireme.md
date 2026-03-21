@@ -19,7 +19,7 @@ experience:
       - "Increased automation from 25% to 75%, driving multimillion-dollar annual savings while improving customer support scalability."
       - "Introduced mobile observability foundations including RUM, SLOs, journey tracking, and customer event instrumentation, helping teams detect SEVs earlier and improve p90 load time to within 2 seconds."
       - "Raised release quality through staged rollouts, production checks, dashboards, and feedback loops that improved delivery confidence and accelerated iteration."
-      - "Championed practical AI adoption through prototypes, workflow improvements, and knowledge sharing without lowering engineering quality."
+      - "Championed practical AI adoption through prototypes, workflow improvements, and knowledge sharing that helped teams move faster while maintaining a high engineering bar."
   - company: "REA Group"
     brand: "Ignite"
     role: "Staff Mobile Developer"
