@@ -3,8 +3,9 @@ title: "Hire Me"
 summary: "Staff engineer across mobile, backend, reliability, and practical AI systems."
 description: "Staff engineer with 15+ years of experience leading architecture, platform quality, and product delivery across mobile, backend, observability, and AI-enabled workflows."
 name: "Jake Lin"
-location: "Melbourne, Australia"
+location: "Melbourne"
 email: "me@jingxianlin.com"
+linkedin: "https://www.linkedin.com/in/jake-l-55228860/"
 url: "/hireme/"
 experience:
   - company: "Block"
@@ -54,12 +55,3 @@ I’m a staff engineer with 15+ years of experience helping teams turn product g
 My background spans mobile, backend, platform quality, observability, and AI-enabled workflows. I’m most effective in roles that combine hands-on technical depth with architecture leadership, cross-team influence, and a strong focus on delivery quality.
 
 In my latest role, I’ve led work that increased support automation to 75%, saved $10M+ annually, and strengthened mobile observability and release quality for a product with 60 million monthly active users. I care about building systems that create real customer value and helping teams adopt better tools and practices in pragmatic ways.
-
-## What I’m looking for
-
-I work best with teams that:
-
-- Focus on real customer value
-- Treat quality and reliability as part of product work
-- Value collaborative problem solving across engineering, product, design, and operations
-- Want to apply AI thoughtfully instead of chasing hype

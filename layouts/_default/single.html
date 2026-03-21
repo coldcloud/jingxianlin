@@ -2,8 +2,12 @@
   <div id="content-outer-container">
     <div id="content-inner-container">
       <nav class="detail-breadcrumb">
-        <span>{{ .Params.name }}</span>
-        {{ with .Params.email }}<span class="contact-inline">{{ lower . }}</span>{{ end }}
+        <span class="identity-name">{{ .Params.name }}</span>
+        <div class="contact-stack">
+          {{ with .Params.location }}<span class="contact-inline">{{ . }}</span>{{ end }}
+          {{ with .Params.email }}<a class="contact-inline" href="mailto:{{ . }}">{{ lower . }}</a>{{ end }}
+          {{ with .Params.linkedin }}<a class="contact-inline" href="{{ . }}" target="_blank" rel="noreferrer">LinkedIn</a>{{ end }}
+        </div>
       </nav>
       <h2 class="list-title">
         {{ partial "icons/hire_me.svg" }}
@@ -17,7 +21,9 @@
         {{ $entry := . }}
         <div class="resume-entry">
           {{ with $entry.icon }}
-            <img{{ if $entry.invertDark }} class="invert-dark"{{ end }}{{ with $entry.iconBackground }} style="background-color: {{ . }}; padding: 6px; box-sizing: border-box;"{{ end }} src="{{ printf "img/%s" . | absURL }}" alt="{{ $entry.company }}">
+            <span class="resume-entry-icon"{{ with $entry.iconBackground }} style="background-color: {{ . }}; padding: 6px; box-sizing: border-box;"{{ end }}>
+              <img class="{{ if $entry.invertDark }}invert-dark {{ end }}{{ if $entry.iconLight }}icon-light{{ end }}" src="{{ printf "img/%s" . | absURL }}" alt="{{ $entry.company }}">
+            </span>
           {{ end }}
           <div>
             <h3>{{ $entry.company }}</h3>
