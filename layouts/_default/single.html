@@ -2,7 +2,8 @@
   <div id="content-outer-container">
     <div id="content-inner-container">
       <nav class="detail-breadcrumb">
-        <a href="{{ "" | absURL }}">{{ .Params.name }}</a>
+        <span>{{ .Params.name }}</span>
+        {{ with .Params.email }}<span class="contact-inline">{{ lower . }}</span>{{ end }}
       </nav>
       <h2 class="list-title">
         {{ partial "icons/hire_me.svg" }}
@@ -17,7 +18,9 @@
           <img{{ if .invertDark }} class="invert-dark"{{ end }} src="{{ printf "img/%s" .icon | absURL }}" alt="{{ .company }}">
           <div>
             <h3>{{ .company }}</h3>
-            <p class="subtitle">{{ .role }}{{ with .brand }} · {{ . }}{{ end }}</p>
+            <p class="subtitle">
+              <span class="role-pill">{{ .role }}</span>{{ with .brand }} <span class="brand-label">@ {{ . }}</span>{{ end }}
+            </p>
             <span id="date">{{ .dates }}</span>
             <ul>
               {{ range .points }}

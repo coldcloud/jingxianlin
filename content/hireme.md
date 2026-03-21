@@ -1,10 +1,10 @@
 ---
 title: "Hire Me"
 summary: "About me and what I'm looking for."
-description: "Staff mobile engineer focused on support product impact, system stability, and practical AI adoption."
+description: "Staff engineer with a track record across product delivery, platform reliability, and practical AI adoption."
 name: "Jake Lin"
 location: "Melbourne, Australia"
-email: "jingxianlin@hotmail.com"
+email: "me@jingxianlin.com"
 url: "/hireme/"
 experience:
   - company: "Block"
@@ -14,22 +14,22 @@ experience:
     icon: "hire-block.svg"
     invertDark: true
     points:
-      - "Drove the Activity API-based transaction picker rollout across Support Home, Support Chat, dispute flows, and support articles, replacing legacy paths with a more consistent and stable experience."
-      - "Improved support-system health with RUM-based SLOs, client dashboards, alerts, CDF analytics, and journey instrumentation that gave product, data, and operations teams clear rollout signals."
-      - "Shipped support experiences that balanced automation and customer clarity, including connected support flows, enriched receipt access, international Square POS chat support, and Support Home analytics."
-      - "Partnered across iOS, Android, backend, design, product, and operations to move features from prototype to staged rollout with close monitoring and fast iteration."
+      - "Worked across mobile, backend, machine learning engineering, and modeling/data science teams to build agentic experiences for Cash App and Square customers, including , Agentic Chat (Support Chat and Money bot), Support Center Hub, disputes, receipts, and support content. Increased automation from 25% to 75%, saving the business millions of dollars per year."
+      - "Focused on system stability and visibility by introducing a mobile observability framework such as RUM data, SLOs, journey tracking, and customer event instrumentation. This helped teams catch SEV issues earlier, measure rollout impact more clearly, and improve app performance e.g. p90 loading within 2 seconds"
+      - "Led release and production quality through staged rollouts, production checks, dashboards, and measurement loops that helped the team iterate quickly and bring customer value faster."
+      - "Championed practical AI adoption through prototypes, workflow improvements, knowledge-sharing, and building agentic experiences that helped teams move faster without lowering engineering quality."
   - company: "REA Group"
     brand: "Ignite"
     role: "Staff Mobile Developer"
-    dates: "2020 - 2021"
+    dates: "2020 - 2022"
     icon: "hire-rea.svg"
     points:
-      - "Set technical direction across mobile architecture, code quality, reusable components, and non-functional requirements."
-      - "Supported delivery from planning through production while helping teams keep systems maintainable and extensible."
-      - "Mentored engineers and contributed to shared mobile guild knowledge across the organization."
+      - "Built the mobile platform that enabled multiple feature teams to deliver consistently in Ignite, a real estate customer platform for agents."
+      - "Helped turn Ignite into a core workflow for more than 20,000 real estate agents to manage rental listings and review tenant applications, increasing monthnly engagement to 50%."
+      - "Set the technical direction for mobile architecture, reusable components, and engineering quality so teams could ship faster while keeping the platform maintainable and extensible."
   - company: "carsales.com.au"
     brand: "Autogate"
-    role: "Senior iOS Developer"
+    role: "Senior iOS Developer and API Developer"
     dates: "2018 - 2020"
     icon: "hire-carsales.png"
     points:
@@ -38,7 +38,7 @@ experience:
       - "Mentored junior developers and reinforced testing and architecture standards."
   - company: "Earlier Career"
     brand: "Bluechain, ZibMedia, Wave Chat, Beijing Uniwill"
-    role: "Mobile and Software Engineer"
+    role: "Mobile and C++ Software Engineer"
     dates: "2009 - 2018"
     icon: "hire-early.svg"
     points:
@@ -46,41 +46,17 @@ experience:
       - "Grew from hands-on implementation into technical leadership, architecture ownership, and team mentoring."
 ---
 
-I build customer support experiences that remove friction for customers and make the system behind them easier to measure, harden, and improve.
+I’m a staff engineer who helps teams turn product goals into reliable systems, scalable solutions, and effective delivery.
 
-I’m based in Melbourne, and I work best on teams that care about customer outcomes, product quality, and reliability in equal measure.
+Over the years, I’ve worked across mobile, backend, platform quality, and AI-enabled workflows. I’m most effective when I can help a team move from idea to production, raise the technical bar, and create the conditions for other engineers to do strong work.
 
-## Product impact
-
-At Cash App and Square, I have focused on simplifying support so customers can solve problems with fewer dead ends and less advocate intervention.
-
-- Unified Support Home, chat, dispute, and article journeys around transaction-aware flows.
-- Shipped guided self-serve features such as read-only receipts, better transaction selection, and clearer next steps from support content.
-- Delivered measurable outcomes including a 1.1% improvement in 48-hour support-chat closure and a 3.37% reduction in claims initiated.
-
-## System stability
-
-I treat observability as part of the product, not as cleanup after the launch.
-
-- Implemented mobile observability systems such as Cash User Journey and CDF events so teams can track customer behavior, failure modes, and journey health with better precision.
-- Built and tuned Datadog RUM metrics, SLOs, dashboards, and alerts for Support Home, Support Chat, disputes, and bot latency.
-- Used those signals to guide rollbacks, harden launches, bring Support Home back under a 2-second p90, and sharply reduce crash rates.
-
-## AI advocacy
-
-I care about practical AI adoption that helps teams move faster without lowering the bar on engineering quality.
-
-- Organize AI meetups and share day-to-day practices that make AI genuinely useful for engineers.
-- Write reusable skills and productivity helpers that turn repeatable work into faster, more reliable workflows.
-- Prototype AI-enabled support experiences, including voice input, AI search instrumentation, and cleaner analytics around automated support behavior.
+I care about building products that deliver real customer value, improving the systems behind them so they stay healthy over time, and helping teams adopt new tools, including AI, in practical ways.
 
 ## What I’m looking for
 
 I work best with teams that:
 
-- Care about measurable customer outcomes
+- Focus on real customer value
 - Treat quality and reliability as part of product work
 - Value collaborative problem solving across engineering, product, design, and operations
 - Want to apply AI thoughtfully instead of chasing hype
-
-If you work somewhere that’s looking for an engineer who can bridge product thinking, mobile implementation, observability, and practical AI adoption, [send me an email](mailto:jingxianlin@hotmail.com).
