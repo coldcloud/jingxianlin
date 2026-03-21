@@ -27,11 +27,13 @@ experience:
       - "Built the mobile platform that enabled multiple feature teams to deliver consistently in Ignite, a real estate customer platform for agents."
       - "Helped turn Ignite into a core workflow for more than 20,000 real estate agents to manage rental listings and review tenant applications, increasing monthnly engagement to 50%."
       - "Set the technical direction for mobile architecture, reusable components, and engineering quality so teams could ship faster while keeping the platform maintainable and extensible."
+      - "Partnered with Talent team to develop a stronger hiring process and interview rubric that improved how the team assessed and grew mobile engineering talent."
   - company: "carsales.com.au"
     brand: "Autogate"
     role: "Senior iOS Developer and API Developer"
     dates: "2018 - 2020"
     icon: "hire-carsales.png"
+    iconBackground: "#0b5cab"
     points:
       - "Delivered end-to-end product work spanning app code, APIs, deployment, and data changes."
       - "Worked closely with product and design to ship practical workflows for dealers."
@@ -40,7 +42,6 @@ experience:
     brand: "Bluechain, ZibMedia, Wave Chat, Beijing Uniwill"
     role: "Mobile and C++ Software Engineer"
     dates: "2009 - 2018"
-    icon: "hire-early.svg"
     points:
       - "Led and shipped client products in payments, POS, onboarding, social apps, and enterprise video systems."
       - "Grew from hands-on implementation into technical leadership, architecture ownership, and team mentoring."

@@ -14,16 +14,19 @@
       </div>
 
       {{ range .Params.experience }}
+        {{ $entry := . }}
         <div class="resume-entry">
-          <img{{ if .invertDark }} class="invert-dark"{{ end }} src="{{ printf "img/%s" .icon | absURL }}" alt="{{ .company }}">
+          {{ with $entry.icon }}
+            <img{{ if $entry.invertDark }} class="invert-dark"{{ end }}{{ with $entry.iconBackground }} style="background-color: {{ . }}; padding: 6px; box-sizing: border-box;"{{ end }} src="{{ printf "img/%s" . | absURL }}" alt="{{ $entry.company }}">
+          {{ end }}
           <div>
-            <h3>{{ .company }}</h3>
+            <h3>{{ $entry.company }}</h3>
             <p class="subtitle">
-              <span class="role-pill">{{ .role }}</span>{{ with .brand }} <span class="brand-label">@ {{ . }}</span>{{ end }}
+              <span class="role-pill">{{ $entry.role }}</span>{{ with $entry.brand }} <span class="brand-label">@ {{ . }}</span>{{ end }}
             </p>
-            <span id="date">{{ .dates }}</span>
+            <span id="date">{{ $entry.dates }}</span>
             <ul>
-              {{ range .points }}
+              {{ range $entry.points }}
                 <li>{{ . }}</li>
               {{ end }}
             </ul>
